@@ -1,0 +1,68 @@
+{
+    "timestamp": "2026-03-06 15:25:32",
+    "system_info": {
+        "platform": "Windows",
+        "python_version": "3.10.10",
+        "test_time": "2026-03-06 15:25:32"
+    },
+    "overall_accuracy": 0.9375,
+    "categories": {
+        "microphone_system": {
+            "accuracy": 1.0,
+            "tests_passed": 3,
+            "total_tests": 3,
+            "status": "\u2705 PASS"
+        },
+        "assistant_status": {
+            "accuracy": 1.0,
+            "successful": 5,
+            "total": 5,
+            "status": "\u2705 PASS"
+        },
+        "response_times": {
+            "accuracy": 1.0,
+            "metrics": {
+                "file_io_avg_ms": 0.7906913757324219,
+                "status_retrieval_avg_ms": 0.10013580322265625
+            },
+            "status": "\u2705 FAST"
+        },
+        "module_imports": {
+            "accuracy": 0.75,
+            "successful": 3,
+            "total": 4,
+            "details": [
+                {
+                    "module": "Backend.RealtimeSearchEngine.RealtimeSearchEngine",
+                    "status": "\u274c FAIL",
+                    "error": "No module named 'tavily'"
+                },
+                {
+                    "module": "Backend.Chatbot.ChatBot",
+                    "status": "\u2705 OK"
+                },
+                {
+                    "module": "Backend.TextToSpeech.TextToSpeech",
+                    "status": "\u2705 OK"
+                },
+                {
+                    "module": "Backend.Model.FirstlayerDMM",
+                    "status": "\u2705 OK"
+                }
+            ],
+            "status": "\u26a0\ufe0f SOME FAILED"
+        },
+        "file_operations": {
+            "accuracy": 1.0,
+            "write_time_ms": 1.0004043579101562,
+            "read_time_ms": 0.0,
+            "status": "\u2705 PASS"
+        }
+    },
+    "performance_metrics": {
+        "response_times": {
+            "file_io_avg_ms": 0.7906913757324219,
+            "status_retrieval_avg_ms": 0.10013580322265625
+        }
+    }
+}

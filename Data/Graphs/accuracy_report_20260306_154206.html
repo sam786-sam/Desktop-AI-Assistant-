@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jarvis AI - Accuracy Report</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #00ff88;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+        .subtitle {
+            text-align: center;
+            color: #00ccff;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .summary-box {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 20px 0;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        .metric-card {
+            background: rgba(0, 255, 136, 0.1);
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            border: 2px solid rgba(0, 255, 136, 0.3);
+            transition: transform 0.3s ease;
+        }
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #00ff88;
+        }
+        .metric-label {
+            font-size: 1.1em;
+            color: #cccccc;
+            margin-top: 10px;
+        }
+        .graph-container {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 15px;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: center;
+        }
+        .graph-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #888;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Jarvis AI Accuracy Report</h1>
+        <div class="subtitle">Comprehensive Performance Analysis</div>
+        
+        <div class="summary-box">
+            <h2 style="color: #00ff88;">📊 Executive Summary</h2>
+            <p><strong>Report Generated:</strong> 2026-03-06 15:42:06</p>
+            <p><strong>Overall System Accuracy:</strong> <span style="color: #00ff88; font-size: 1.5em; font-weight: bold;">100.00%</span></p>
+            <p><strong>Categories Tested:</strong> 5</p>
+        </div>
+        
+        <div class="metric-grid">
+            <div class="metric-card">
+                <div class="metric-value">100.0%</div>
+                <div class="metric-label">Overall Accuracy</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">5</div>
+                <div class="metric-label">Categories</div>
+            </div>
+            <div class="metric-card">
+                <div class="metric-value">5</div>
+                <div class="metric-label">Visualizations</div>
+            </div>
+        </div>
+        
+        <h2 style="color: #00ccff; margin-top: 40px;">📈 Visual Analytics</h2>
+
+        <div class="graph-container">
+            <h3 style="color: #ff9933;">Category Bar Chart</h3>
+            <img src="category_accuracy_20260306_154206.png" alt="Category Bar Chart">
+        </div>
+
+        <div class="graph-container">
+            <h3 style="color: #ff9933;">Accuracy Distribution Pie Chart</h3>
+            <img src="pie_chart_20260306_154206.png" alt="Accuracy Distribution Pie Chart">
+        </div>
+
+        <div class="graph-container">
+            <h3 style="color: #ff9933;">Overall Accuracy Gauge</h3>
+            <img src="gauge_chart_20260306_154206.png" alt="Overall Accuracy Gauge">
+        </div>
+
+        <div class="graph-container">
+            <h3 style="color: #ff9933;">Multi-Dimensional Radar Chart</h3>
+            <img src="radar_chart_20260306_154206.png" alt="Multi-Dimensional Radar Chart">
+        </div>
+
+        <div class="graph-container">
+            <h3 style="color: #ff9933;">Expected vs Actual Comparison</h3>
+            <img src="comparison_chart_20260306_154206.png" alt="Expected vs Actual Comparison">
+        </div>
+
+        <div class="footer">
+            <p>Jarvis AI Accuracy Calculator | Generated with Python & Matplotlib</p>
+            <p>Advanced Performance Monitoring System</p>
+        </div>
+    </div>
+</body>
+</html>

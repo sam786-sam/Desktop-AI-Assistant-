@@ -1,0 +1,43 @@
+Content: A Java Code Of Sum Of Two Numbers In Notepad.
+============================================================
+Generated on: 2025-09-02 16:46:49
+============================================================
+
+**Introduction to Java Code for Sum of Two Numbers**
+=====================================================
+In this section, we will explore a simple Java code that calculates the sum of two numbers. This code will be written in Notepad, a basic text editor that comes pre-installed with Windows.
+**Creating a New File in Notepad**
+--------------------------------
+To start, open Notepad and create a new file. You can do this by clicking on the "File" menu and selecting "New" or by pressing the "Ctrl + N" keys on your keyboard. This will open a blank file where you can write your Java code.
+**Writing the Java Code**
+-------------------------
+Here is the Java code that calculates the sum of two numbers:
+```java
+public class SumOfTwoNumbers {
+    public static void main(String[] args) {
+        int num1 = 10;
+        int num2 = 20;
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+    }
+}
+```
+Let's break down this code:
+* `public class SumOfTwoNumbers`: This line declares a new public class called `SumOfTwoNumbers`.
+* `public static void main(String[] args)`: This line declares the main method where the program starts execution.
+* `int num1 = 10;` and `int num2 = 20;`: These lines declare two integer variables, `num1` and `num2`, and assign them the values 10 and 20, respectively.
+* `int sum = num1 + num2;`: This line calculates the sum of `num1` and `num2` and stores the result in a new integer variable called `sum`.
+* `System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);`: This line prints the result to the console.
+**Saving the File**
+--------------------
+Once you have written the Java code, save the file with a `.java` extension. For example, you can save the file as `SumOfTwoNumbers.java`. Make sure to save the file in a location where you can easily find it later.
+**Compiling and Running the Code**
+---------------------------------
+To compile and run the code, you will need to use the `javac` and `java` commands in the Command Prompt or Terminal. Here are the steps:
+1. Open the Command Prompt or Terminal and navigate to the location where you saved the `SumOfTwoNumbers.java` file.
+2. Compile the code using the `javac` command: `javac SumOfTwoNumbers.java`
+3. Run the code using the `java` command: `java SumOfTwoNumbers`
+This will execute the code and print the result to the console.
+**Conclusion**
+==============
+In this section, we wrote a simple Java code that calculates the sum of two numbers in Notepad. We explained the code in detail and provided step-by-step instructions on how to save, compile, and run the code. This code is a basic example of how to write a Java program, and it can be used as a starting point for more complex projects.

@@ -1,0 +1,28 @@
+Content: A Leave  Student Asking You To Dean Sir.
+============================================================
+Generated on: 2026-03-02 13:26:45
+============================================================
+
+[Student's Name]
+[Student's Roll Number]
+[Department]
+[University/Institution Name]
+[Date]
+Dean Sir,
+[Dean's Name]
+[University/Institution Name]
+[University/Institution Address]
+Subject: Application for Leave of Absence
+Respected Dean Sir,
+I am writing to request a leave of absence from my academic duties for [number] days, starting from [start date] and ending on [end date]. Due to [reason for leave, e.g., personal reasons, family obligations, health issues, etc.], I am unable to attend classes and participate in academic activities during this period.
+I have been a regular student and have been keeping up with my coursework, but due to unforeseen circumstances, I need to take a temporary leave from my studies. I will ensure that I catch up on any missed work and assignments as soon as possible after my return.
+I have attached a medical certificate/ supporting document to this application, which provides more details about my reason for leave. I would like to request your approval for my leave application and permission to be absent from classes during this period.
+I would like to assure you that I will make up for the lost time and complete my coursework as soon as possible. I am available to discuss this further and provide any additional information that you may require.
+I appreciate your understanding and support in this matter. Please let me know if there are any additional steps I need to take or if there is any further documentation required.
+Thank you for considering my leave application.
+Sincerely,
+[Student's Signature]
+[Student's Name]
+[Student's Roll Number]
+Attachments: Medical Certificate/ Supporting Document
+Note: Please modify the application according to your institution's requirements and provide the necessary documentation to support your leave application.

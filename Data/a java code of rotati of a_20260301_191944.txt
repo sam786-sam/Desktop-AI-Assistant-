@@ -1,0 +1,72 @@
+Content: A Java Code Of Rotati Of A.
+============================================================
+Generated on: 2026-03-01 19:19:44
+============================================================
+
+## Introduction to Java Code for Matrix Rotation
+The following Java code is designed to rotate a matrix by 90 degrees clockwise. This operation is a fundamental concept in linear algebra and computer science, with applications in various fields such as image processing, computer graphics, and data analysis.
+## Problem Statement
+Given a square matrix, write a Java program to rotate it by 90 degrees clockwise. The input matrix is represented as a 2D array, where each element is an integer.
+## Solution Overview
+The solution involves using a temporary matrix to store the rotated elements. The algorithm works by iterating over the input matrix and assigning each element to its corresponding position in the temporary matrix, but with the row and column indices swapped and the column index negated to achieve the rotation effect.
+## Java Code
+```java
+public class MatrixRotation {
+    public static void rotate(int[][] matrix) {
+        int n = matrix.length;
+        int[][] temp = new int[n][n];
+        // Rotate the matrix by 90 degrees clockwise
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                temp[j][n - i - 1] = matrix[i][j];
+            }
+        }
+        // Copy the rotated matrix back to the original matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                matrix[i][j] = temp[i][j];
+            }
+        }
+    }
+    public static void printMatrix(int[][] matrix) {
+        for (int i = 0; i < matrix.length; i++) {
+            for (int j = 0; j < matrix[0].length; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
+    public static void main(String[] args) {
+        int[][] matrix = {
+            {1, 2, 3},
+            {4, 5, 6},
+            {7, 8, 9}
+        };
+        System.out.println("Original Matrix:");
+        printMatrix(matrix);
+        rotate(matrix);
+        System.out.println("Rotated Matrix:");
+        printMatrix(matrix);
+    }
+}
+```
+## Explanation of the Code
+The provided Java code defines a class `MatrixRotation` with a method `rotate` that takes a 2D array `matrix` as input and rotates it by 90 degrees clockwise. The rotation is achieved by using a temporary matrix `temp` to store the rotated elements.
+1.  **Initialization**: The code starts by initializing the size of the input matrix `n` and creating a temporary matrix `temp` of the same size.
+2.  **Rotation**: The rotation is performed by iterating over the input matrix and assigning each element to its corresponding position in the temporary matrix, but with the row and column indices swapped and the column index negated.
+3.  **Copy Back**: After rotation, the code copies the rotated matrix back to the original matrix.
+4.  **Print Matrix**: The `printMatrix` method is used to print the elements of the matrix.
+5.  **Main Method**: In the `main` method, an example matrix is created, printed, rotated, and then printed again to demonstrate the rotation.
+## Example Output
+```
+Original Matrix:
+1 2 3
+4 5 6
+7 8 9
+Rotated Matrix:
+7 4 1
+8 5 2
+9 6 3
+```
+## Conclusion
+The provided Java code demonstrates a simple and efficient way to rotate a matrix by 90 degrees clockwise. The algorithm uses a temporary matrix to store the rotated elements and achieves the rotation by swapping and negating the row and column indices. This code can be used as a starting point for more complex matrix operations and can be applied to various real-world problems in image processing, computer graphics, and data analysis.

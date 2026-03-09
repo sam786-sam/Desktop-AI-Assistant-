@@ -1,0 +1,29 @@
+{
+  "2026-03-05": [
+    {
+      "date": "2026-03-05",
+      "description": "meet frnd",
+      "added_on": "2026-03-02 23:19:22",
+      "reminded_before": false,
+      "reminded_on_day": false
+    }
+  ],
+  "2026-03-10": [
+    {
+      "date": "2026-03-10",
+      "description": "call mom",
+      "added_on": "2026-03-02 23:19:22",
+      "reminded_before": false,
+      "reminded_on_day": false
+    }
+  ],
+  "2026-03-03": [
+    {
+      "date": "2026-03-03",
+      "description": "test calendar",
+      "added_on": "2026-03-02 23:21:43",
+      "reminded_before": false,
+      "reminded_on_day": false
+    }
+  ]
+}

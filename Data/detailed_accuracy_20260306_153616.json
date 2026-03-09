@@ -1,0 +1,67 @@
+{
+    "timestamp": "2026-03-06 15:36:14",
+    "system_info": {
+        "platform": "Windows",
+        "python_version": "3.10.10",
+        "test_time": "2026-03-06 15:36:14"
+    },
+    "overall_accuracy": 1.0,
+    "categories": {
+        "microphone_system": {
+            "accuracy": 1.0,
+            "tests_passed": 3,
+            "total_tests": 3,
+            "status": "\u2705 PASS"
+        },
+        "assistant_status": {
+            "accuracy": 1.0,
+            "successful": 5,
+            "total": 5,
+            "status": "\u2705 PASS"
+        },
+        "response_times": {
+            "accuracy": 1.0,
+            "metrics": {
+                "file_io_avg_ms": 0.6343841552734375,
+                "status_retrieval_avg_ms": 0.09505748748779297
+            },
+            "status": "\u2705 FAST"
+        },
+        "module_imports": {
+            "accuracy": 1.0,
+            "successful": 4,
+            "total": 4,
+            "details": [
+                {
+                    "module": "Backend.RealtimeSearchEngine.RealtimeSearchEngine",
+                    "status": "\u2705 OK"
+                },
+                {
+                    "module": "Backend.Chatbot.ChatBot",
+                    "status": "\u2705 OK"
+                },
+                {
+                    "module": "Backend.TextToSpeech.TextToSpeech",
+                    "status": "\u2705 OK"
+                },
+                {
+                    "module": "Backend.Model.FirstlayerDMM",
+                    "status": "\u2705 OK"
+                }
+            ],
+            "status": "\u2705 PASS"
+        },
+        "file_operations": {
+            "accuracy": 1.0,
+            "write_time_ms": 1.001596450805664,
+            "read_time_ms": 0.99945068359375,
+            "status": "\u2705 PASS"
+        }
+    },
+    "performance_metrics": {
+        "response_times": {
+            "file_io_avg_ms": 0.6343841552734375,
+            "status_retrieval_avg_ms": 0.09505748748779297
+        }
+    }
+}

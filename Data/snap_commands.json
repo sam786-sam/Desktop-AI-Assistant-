@@ -1,0 +1,68 @@
+{
+    "morning routine": [
+        "wifi: on",
+        "brightness: up",
+        "volume: up",
+        "open: spotify",
+        "open: chrome"
+    ],
+    "work mode": [
+        "wifi: on",
+        "brightness: increase",
+        "open: vscode",
+        "open: chrome",
+        "open: notion"
+    ],
+    "entertainment mode": [
+        "volume: up",
+        "open: spotify",
+        "play: latest songs",
+        "youtube search: trending videos"
+    ],
+    "system check": [
+        "wifi: status",
+        "bluetooth: status",
+        "volume: check"
+    ],
+    "shutdown routine": [
+        "close: chrome",
+        "close: spotify",
+        "wifi: off",
+        "bluetooth: off"
+    ],
+    "gaming setup": [
+        "brightness: max",
+        "volume: max",
+        "close: unnecessary apps",
+        "open: steam"
+    ],
+    "presentation mode": [
+        "brightness: max",
+        "volume: up",
+        "wifi: on",
+        "open: powerpoint"
+    ],
+    "next image": [
+        "generate image: next beautiful landscape",
+        "open: photos"
+    ],
+    "previous image": [
+        "generate image: previous concept art",
+        "open: photos"
+    ],
+    "show images": [
+        "open: photos",
+        "generate image: gallery view"
+    ],
+    "create workspace": [
+        "open: vscode",
+        "open: terminal",
+        "open: browser",
+        "generate image: workspace setup"
+    ],
+    "social media check": [
+        "open: chrome",
+        "google search: social media updates",
+        "youtube search: trending now"
+    ]
+}
